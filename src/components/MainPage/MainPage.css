@@ -1,0 +1,48 @@
+
+.main-image-background{
+    background-color:#0b4f6c;
+    
+    background-position: bottom;
+    height:100vh;
+    filter:opacity(.5);
+    position: fixed;
+    z-index:-1;
+}
+
+.main-image-background2{
+    background-image: url('../../assets/img/main-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    filter:opacity(1);
+    position: fixed;
+    z-index:-2;
+}
+
+.page-centered-text-container{
+    background: rgba(255,255,255,.2);
+    background-image: url("https://www.transparenttextures.com/patterns/cubes.png");
+    background-position: bottom right;
+    color:#040f16;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    margin:0;
+    flex-wrap:wrap;
+    min-width: 450px;
+    width:35vw;
+    height:100vh;
+}
+
+.main-welcome-text{
+    margin:0 15px;
+}
+
+.next-right{
+    display: flex;
+    position:fixed;
+    right:0;
+    top:20vh;
+    bottom:20vh;
+    opacity:.7;
+}
